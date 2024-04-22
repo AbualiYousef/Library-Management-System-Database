@@ -1,5 +1,5 @@
 --11.Stored Procedure - Borrowed Books Report:
-CREATE PROCEDURE sp_BorrowedBooksReport
+CREATE OR ALTER PROCEDURE PROCEDURE sp_BorrowedBooksReport
     @StartDate DATE,
     @EndDate DATE
 AS

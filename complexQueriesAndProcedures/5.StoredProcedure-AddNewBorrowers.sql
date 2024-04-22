@@ -1,5 +1,5 @@
 --5.Stored Procedure - Add New Borrowers:
-CREATE PROCEDURE sp_AddNewBorrower
+CREATE OR ALTER PROCEDURE PROCEDURE sp_AddNewBorrower
     @FirstName VARCHAR(255),
     @LastName VARCHAR(255),
     @Email VARCHAR(255),
